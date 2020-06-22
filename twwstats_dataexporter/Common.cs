@@ -14,6 +14,8 @@ namespace twwstats_dataexporter
         /// </summary>
         public static List<Tuple<Game, String, String>> GameVersions = new List<Tuple<Game, String, String>>
             {
+                // === THE END TIMES ===
+                new Tuple<Game, String, String>(Game.ENDTIMES, "The End Times", "endtimes"),
                 // === LUCKY ===
                 //new Tuple<Game, String, String>(Game.LSO, "Lucky", "lso436"),
                 // === RADIOUS ===
@@ -66,7 +68,7 @@ namespace twwstats_dataexporter
 
         public static String DataPath { get
             {
-                return $"D:/code/twwstats_data";
+                return $"D:/code/twwstats/twwstats_data";
             }
         }
     }

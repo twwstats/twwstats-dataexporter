@@ -11,7 +11,8 @@ namespace twwstats_dataexporter.Services
         SFO,
         CTT,
         RADIOUS,
-        LSO
+        LSO,
+        ENDTIMES
     }
 
     public class GameVersion
