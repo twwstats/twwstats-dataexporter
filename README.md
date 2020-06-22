@@ -1,5 +1,7 @@
 # twwstats-dataexporter
-Total War: WARHAMMER data exporter for twwstats. This projects heavily leverages code from the [packfilemanager](https://sourceforge.net/projects/packfilemanager/) project
+Total War: WARHAMMER data exporter for twwstats. This projects heavily leverages code from the [packfilemanager](https://sourceforge.net/projects/packfilemanager/) project. The goal of this project is twofold:
+- extract raw tables data from `.pack` files and/or Assembly Kit `.xml` files and convert each table to a JSON file (array of objects)
+- extract images from `.pack` files and store them in a folder structure matching the one found inside the `.pack` files
 
 # Keeping the master_schema.xml up to date
 Updated versions of the master_schema.xml file are regularly uploaded to [packfilemanager](https://sourceforge.net/projects/packfilemanager/) when new versions of the game are released. Note however that it contains a few errors that are problematic to twwstats and must be manually corrected (I've tried getting in contact with PFM's owner/contributors to report it but never got a hold of them unfortunately...)
