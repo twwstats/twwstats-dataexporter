@@ -4,9 +4,9 @@ Total War: WARHAMMER data exporter for twwstats. This projects heavily leverages
 - extract images from `.pack` files and store them in a folder structure matching the one found inside the `.pack` files
 
 # Keeping the master_schema.xml up to date
-Updated versions of the master_schema.xml file are regularly uploaded to [packfilemanager](https://sourceforge.net/projects/packfilemanager/) when new versions of the game are released. Note however that it contains a few errors that are problematic to twwstats and must be manually corrected (I've tried getting in contact with PFM's owner/contributors to report it but never got a hold of them unfortunately...)
+Updated versions of the master_schema.xml file are regularly uploaded to [packfilemanager](https://sourceforge.net/projects/packfilemanager/) when new versions of the game are released. Note that it contains a few typos that you should be aware of when using the exported data (I've tried getting in contact with PFM's owner/contributors to report it but never got a hold of them unfortunately...)
 
-## Local changes
+## Known schema typos
 - battle_entities_tables
     - hitpoints -> hit_points
 - missile_weapons_tables
