@@ -122,7 +122,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>agent_subtypes_tables</Type>
-    <MaxVersion>18</MaxVersion>
+    <MaxVersion>19</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>agent_subtypes_to_mission_groups_tables</Type>
@@ -174,7 +174,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>ancillaries_tables</Type>
-    <MaxVersion>16</MaxVersion>
+    <MaxVersion>18</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>ancillary_included_subcultures_tables</Type>
@@ -242,7 +242,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>audio_abilities_tables</Type>
-    <MaxVersion>6</MaxVersion>
+    <MaxVersion>7</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>audio_ability_phases_tables</Type>
@@ -361,8 +361,12 @@
     <MaxVersion>2</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
+    <Type>audio_entity_looping_sound_mappings_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
     <Type>audio_entity_looping_sounds_tables</Type>
-    <MaxVersion>3</MaxVersion>
+    <MaxVersion>5</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>audio_entity_random_vocalisations_tables</Type>
@@ -374,7 +378,11 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>audio_entity_types_tables</Type>
-    <MaxVersion>29</MaxVersion>
+    <MaxVersion>31</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
+    <Type>audio_event_trigger_responses_tables</Type>
+    <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>audio_explosions_tables</Type>
@@ -393,8 +401,16 @@
     <MaxVersion>19</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
+    <Type>audio_looping_sound_groupings_tables</Type>
+    <MaxVersion>1</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
+    <Type>audio_looping_sounds_mappings_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
     <Type>audio_markers_tables</Type>
-    <MaxVersion>2</MaxVersion>
+    <MaxVersion>3</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>audio_materials_tables</Type>
@@ -414,7 +430,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>audio_metadata_tags_tables</Type>
-    <MaxVersion>13</MaxVersion>
+    <MaxVersion>14</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>audio_missile_weapon_types_tables</Type>
@@ -570,7 +586,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>battle_entities_tables</Type>
-    <MaxVersion>33</MaxVersion>
+    <MaxVersion>34</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>battle_entity_effects_junctions_tables</Type>
@@ -662,7 +678,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>battle_set_pieces_tables</Type>
-    <MaxVersion>12</MaxVersion>
+    <MaxVersion>14</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>battle_siege_vehicle_permissions_tables</Type>
@@ -1585,6 +1601,10 @@
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
+    <Type>campaign_group_member_criteria_unit_purchasable_effects_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
     <Type>campaign_group_member_criteria_values_tables</Type>
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
@@ -1630,6 +1650,10 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>campaign_group_racial_suitability_effects_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
+    <Type>campaign_group_refund_effects_tables</Type>
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
@@ -1929,6 +1953,10 @@
     <MaxVersion>1</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
+    <Type>campaign_vo_cs_conversation_mappings_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
     <Type>campaigns_campaign_variables_junctions_tables</Type>
     <MaxVersion>2</MaxVersion>
   </TypeVersionTuple>
@@ -1954,7 +1982,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>cdir_events_dilemma_choice_details_tables</Type>
-    <MaxVersion>1</MaxVersion>
+    <MaxVersion>2</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>cdir_events_dilemma_followup_dilemmas_tables</Type>
@@ -2178,7 +2206,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>cooking_ingredients_tables</Type>
-    <MaxVersion>2</MaxVersion>
+    <MaxVersion>3</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>cooking_recipe_required_ingredient_groups_tables</Type>
@@ -2190,7 +2218,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>cooking_recipes_tables</Type>
-    <MaxVersion>3</MaxVersion>
+    <MaxVersion>4</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>culture_campaign_destruction_composite_scene_junctions_tables</Type>
@@ -2417,6 +2445,10 @@
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
+    <Type>effect_bonus_value_ritual_category_junctions_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
     <Type>effect_bonus_value_ritual_junctions_tables</Type>
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
@@ -2522,6 +2554,10 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>faction_agent_permitted_subtypes_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
+    <Type>faction_banned_unit_purchasable_effects_tables</Type>
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
@@ -2682,7 +2718,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>frontend_faction_groups_to_factions_tables</Type>
-    <MaxVersion>0</MaxVersion>
+    <MaxVersion>1</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>frontend_faction_leaders_tables</Type>
@@ -2782,7 +2818,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>land_units_tables</Type>
-    <MaxVersion>43</MaxVersion>
+    <MaxVersion>44</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>land_units_to_unit_abilites_junctions_tables</Type>
@@ -3077,6 +3113,10 @@
     <MaxVersion>2</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
+    <Type>pooled_resource_to_region_junctions_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
     <Type>pooled_resources_tables</Type>
     <MaxVersion>5</MaxVersion>
   </TypeVersionTuple>
@@ -3138,7 +3178,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>projectiles_tables</Type>
-    <MaxVersion>45</MaxVersion>
+    <MaxVersion>46</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>prologue_chapters_tables</Type>
@@ -3298,7 +3338,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>ritual_military_force_target_criterias_tables</Type>
-    <MaxVersion>2</MaxVersion>
+    <MaxVersion>4</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>ritual_payload_ai_war_coordination_region_targets_tables</Type>
@@ -3341,6 +3381,10 @@
     <MaxVersion>1</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
+    <Type>ritual_payload_teleport_armies_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
     <Type>ritual_payload_transported_military_forces_tables</Type>
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
@@ -3369,11 +3413,19 @@
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
+    <Type>ritual_to_region_reasons_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
     <Type>rituals_tables</Type>
     <MaxVersion>15</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>rituals_to_nakai_temple_levels_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
+    <Type>rituals_to_regions_tables</Type>
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
@@ -3466,7 +3518,7 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>special_ability_groups_tables</Type>
-    <MaxVersion>8</MaxVersion>
+    <MaxVersion>9</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>special_ability_groups_to_unit_abilities_junctions_tables</Type>
@@ -3673,6 +3725,18 @@
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
+    <Type>ui_purchasable_effect_tiers_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
+    <Type>ui_purchasable_effect_unit_categories_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
+    <Type>ui_purchasable_effects_to_hex_ids_tables</Type>
+    <MaxVersion>2</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
     <Type>ui_tagged_images_tables</Type>
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
@@ -3849,6 +3913,10 @@
     <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
+    <Type>unit_purchasable_effect_prerequisite_sets_tables</Type>
+    <MaxVersion>0</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
     <Type>unit_purchasable_effect_sets_tables</Type>
     <MaxVersion>1</MaxVersion>
   </TypeVersionTuple>
@@ -3858,7 +3926,11 @@
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>unit_purchasable_effects_tables</Type>
-    <MaxVersion>1</MaxVersion>
+    <MaxVersion>2</MaxVersion>
+  </TypeVersionTuple>
+  <TypeVersionTuple>
+    <Type>unit_purchasable_prerequisite_sets_to_effects_junctions_tables</Type>
+    <MaxVersion>0</MaxVersion>
   </TypeVersionTuple>
   <TypeVersionTuple>
     <Type>unit_set_to_mp_unit_caps_tables</Type>

@@ -17,11 +17,11 @@ namespace twwstats_dataexporter
                 // === THE END TIMES ===
                 new Tuple<Game, String, String>(Game.ENDTIMES, "The End Times", "endtimes"),
                 // === LUCKY ===
-                //new Tuple<Game, String, String>(Game.LSO, "Lucky", "lso436"),
+                //new Tuple<Game, String, String>(Game.LSO, "Lucky", "lso436"), 
                 // === RADIOUS ===
                 // --- 1149634389 Radious Part 1 ---
                 // --- 1149634634 Radious Part 2 ---
-                new Tuple<Game, String, String>(Game.RADIOUS, "Radious", "radious"),
+                new Tuple<Game, String, String>(Game.RADIOUS, "Radious", "radious_270"),
                 // === CTT ===
                 // --- 1214959308 Boyz will be Boyz - CTT
                 // --- 1233427148 Boyz will be Boyz - CTT - Units
@@ -40,9 +40,12 @@ namespace twwstats_dataexporter
                 // --- 1366245525 Kraka Drak (The Norse Dwarfs) SubMod
                 new Tuple<Game, String, String>(Game.SFO, "Steel Faith Overhaul", "sfo"),
                 // === TWW 2 - BETAS ===
-                new Tuple<Game, String, String>(Game.TWW2, "tww2_beta", "tww2_beta"),
+                //new Tuple<Game, String, String>(Game.TWW2, "tww2_beta", "tww2_beta"),
 
                 // === TWW 2 ===
+                new Tuple<Game, String, String>(Game.TWW2, "The Asrai Resurgent Update", "8463029303144685637"),
+                new Tuple<Game, String, String>(Game.TWW2, "The Twisted & Twilight Update", "5568484908994462459"),
+                new Tuple<Game, String, String>(Game.TWW2, "Da Nutz ‘N’ Boltz Update", "2049963969484436867"),
                 new Tuple<Game, String, String>(Game.TWW2, "The Warden & The Paunch v2", "5304167787849256707"),
                 new Tuple<Game, String, String>(Game.TWW2, "The Warden & The Paunch", "5370115782236907066"),
                 new Tuple<Game, String, String>(Game.TWW2, "The Kings Shilling", "570375842370499671"),
